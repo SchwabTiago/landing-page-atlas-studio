@@ -1,7 +1,10 @@
+import { BrowserRouter } from "react-router-dom";
+import { PathRoutes } from "./routes/PathRoutes";
+
 export default function App() {
   return (
-    <>
-      <h1>Olá Mundo!!</h1>
-    </>
+    <BrowserRouter>
+      <PathRoutes />
+    </BrowserRouter>
   );
 }
