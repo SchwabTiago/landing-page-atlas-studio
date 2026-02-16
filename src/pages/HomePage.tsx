@@ -1,8 +1,8 @@
 import { Header } from "../components/Header";
 
-import img02 from "../assets/image/image02.jpg";
-import img03 from "../assets/image/image03.jpg";
-import img04 from "../assets/image/image04.jpg";
+import img02 from "../assets/image/image02.webp";
+import img03 from "../assets/image/image03.webp";
+import img04 from "../assets/image/image04.webp";
 
 import icon1 from "../assets/icons/architecture.svg";
 import icon2 from "../assets/icons/chair.svg";
@@ -44,7 +44,7 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-[url('../assets/image/image01.jpg')] bg-no-repeat bg-cover flex">
+      <main className="min-h-screen bg-[url('../assets/image/image01.webp')] bg-no-repeat bg-cover flex">
         <div className="bg-white/10 backdrop-blur h-1/2 m-20 rounded-xl">
           <div className="m-10">
             <h2 className="text-6xl font-playfair-display mb-5 text-gray-800">
@@ -101,7 +101,7 @@ export default function HomePage() {
         </div>
       </section>
       <section className="max-w-7xl mx-auto px-6 py-20 flex gap-18">
-        <div className=" w-1/2 min-h-130 rounded-2xl bg-[url('../assets/image/image05.jpg')] bg-cover bg-center bg-no-repeat" />
+        <div className=" w-1/2 min-h-130 rounded-2xl bg-[url('../assets/image/image05.webp')] bg-cover bg-center bg-no-repeat" />
         <div className=" w-1/2">
           <p className="text-blue-500 font-inter text-sm mb-8 mt-10">
             OUR PHILOSOPHY
