@@ -7,6 +7,7 @@ import img04 from "../assets/image/image04.jpg";
 import icon1 from "../assets/icons/architecture.svg";
 import icon2 from "../assets/icons/chair.svg";
 import icon3 from "../assets/icons/layers.svg";
+import { Footer } from "../components/Footes";
 
 type PortfolioItemProps = {
   src: string;
@@ -187,18 +188,17 @@ export default function HomePage() {
             Ready to transform your <br className="hidden md:block" />
             home?
           </h2>
-
           <p className="mt-6 max-w-2xl font-inter text-base md:text-lg text-white/80 leading-relaxed">
             Let's collaborate to create a space that reflects your personality
             and enhances your daily life. Our initial consultations are the
             first step to your dream space.
           </p>
-
           <button className="mt-10 rounded-xl bg-white px-10 py-4 font-inter text-lg font-semibold text-blue-600 shadow-sm transition hover:bg-white/90 active:scale-[0.99]">
             Book a Consultation
           </button>
         </div>
       </section>
+      <Footer />
     </>
   );
 }
