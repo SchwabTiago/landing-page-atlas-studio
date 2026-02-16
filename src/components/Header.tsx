@@ -36,7 +36,7 @@ export function Header() {
             </li>
           </ul>
           <button className="bg-blue-500 text-white pt-2 pb-2 pl-4 pr-4 rounded-xl font-inter hover:bg-blue-500/90 transition cursor-pointer font-medium">
-            START A PROJECT
+            CONTACT US
           </button>
         </div>
       </header>
