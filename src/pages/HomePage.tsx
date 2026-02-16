@@ -7,7 +7,7 @@ import img04 from "../assets/image/image04.jpg";
 import icon1 from "../assets/icons/architecture.svg";
 import icon2 from "../assets/icons/chair.svg";
 import icon3 from "../assets/icons/layers.svg";
-import { Footer } from "../components/Footes";
+import { Footer } from "../components/Footer";
 
 type PortfolioItemProps = {
   src: string;
