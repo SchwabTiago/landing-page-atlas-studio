@@ -1,3 +1,5 @@
+import Button from "../../../components/ui/Button";
+
 export default function HeroSection() {
   return (
     <section className="min-h-screen bg-[url('../assets/image/image01.webp')] bg-no-repeat bg-cover flex">
@@ -13,12 +15,10 @@ export default function HeroSection() {
             for your story.
           </p>
           <div>
-            <button className="bg-blue-500 text-white pt-3 pb-3 pl-8 pr-8 rounded-xl font-inter hover:bg-blue-500/90 transition cursor-pointer font-medium text-lg mr-6">
-              Contact Us
-            </button>
-            <button className="bg-white pt-3 pb-3 pl-8 pr-8 rounded-xl font-inter hover:bg-gray-200 transition cursor-pointer font-medium text-lg">
-              See our work
-            </button>
+            <Button>Contact Us</Button>
+            <Button variant="secondary" className="ml-10">
+              See Our Instagram
+            </Button>
           </div>
         </div>
       </div>

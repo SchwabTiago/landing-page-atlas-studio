@@ -1,3 +1,5 @@
+import Button from "../../../components/ui/Button";
+
 export default function CtaSection() {
   return (
     <section className="max-w-7xl mx-auto px-6 mt-20">
@@ -11,9 +13,7 @@ export default function CtaSection() {
           enhances your daily life. Our initial consultations are the first step
           to your dream space.
         </p>
-        <button className="mt-10 rounded-xl bg-white px-10 py-4 font-inter text-lg font-semibold text-blue-600 shadow-sm transition hover:bg-white/90 active:scale-[0.99]">
-          Book a Consultation
-        </button>
+        <Button variant="secondary" className="mt-10">Book a Consultation</Button>
       </div>
     </section>
   );

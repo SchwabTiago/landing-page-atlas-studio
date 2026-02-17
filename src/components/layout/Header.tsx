@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import Logo from "../ui/Logo";
+import Button from "../ui/Button";
 
 function navLinkClass({ isActive }: { isActive: boolean }) {
   return isActive
@@ -35,9 +36,7 @@ export function Header() {
               </NavLink>
             </li>
           </ul>
-          <button className="bg-blue-500 text-white pt-2 pb-2 pl-4 pr-4 rounded-xl font-inter hover:bg-blue-500/90 transition cursor-pointer font-medium">
-            CONTACT US
-          </button>
+          <Button>CONTACT US</Button>
         </div>
       </header>
     </>
