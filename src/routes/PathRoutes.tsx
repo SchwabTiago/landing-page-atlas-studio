@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 
-import HomePage from "../pages/HomePage";
-import ContactPage from "../pages/ContactPage";
-import NotFoundPage from "../pages/NotFoundPage";
-import PortfolioPage from "../pages/PortfolioPage";
-import ServicesPage from "../pages/ServicesPage";
+import HomePage from "../pages/home/HomePage";
+import ContactPage from "../pages/contact/ContactPage";
+import NotFoundPage from "../pages/not-found/NotFoundPage";
+import PortfolioPage from "../pages/portfolio/PortfolioPage";
+import ServicesPage from "../pages/services/ServicesPage";
 
 export function PathRoutes() {
   return (

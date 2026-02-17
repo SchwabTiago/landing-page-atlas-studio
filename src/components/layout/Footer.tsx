@@ -1,7 +1,7 @@
-import facebook from "../assets/icons/facebook.svg";
-import instagram from "../assets/icons/instagram.svg";
-import dribbble from "../assets/icons/dribbble.svg";
-import send_symbol from "../assets/icons/send-symbol.svg";
+import facebook from "../../assets/icons/facebook.svg";
+import instagram from "../../assets/icons/instagram.svg";
+import dribbble from "../../assets/icons/dribbble.svg";
+import send_symbol from "../../assets/icons/send-symbol.svg";
 
 export function Footer() {
   return (
@@ -39,17 +39,12 @@ export function Footer() {
               </li>
               <li>
                 <a className="hover:text-blue-600 transition" href="#">
-                  Our Services
+                  Services
                 </a>
               </li>
               <li>
                 <a className="hover:text-blue-600 transition" href="#">
-                  Process
-                </a>
-              </li>
-              <li>
-                <a className="hover:text-blue-600 transition" href="#">
-                  Journal
+                  Contact
                 </a>
               </li>
             </ul>
@@ -103,7 +98,7 @@ export function Footer() {
 
         <div className="mt-8 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
           <p className="text-xs tracking-[0.18em] text-slate-400">
-            © 2024 ATLAS DESIGN STUDIO. ALL RIGHTS RESERVED.
+            ©2026 ATLAS DESIGN STUDIO. ALL RIGHTS RESERVED.
           </p>
 
           <div className="flex items-center gap-4 text-slate-400">

@@ -1,14 +1,13 @@
-import { Header } from "../components/Header";
+import { Header } from "../../components/layout/Header";
+import { Footer } from "../../components/layout/Footer";
 
-import img02 from "../assets/image/image02.webp";
-import img03 from "../assets/image/image03.webp";
-import img04 from "../assets/image/image04.webp";
+import img02 from "../../assets/image/image02.webp";
+import img03 from "../../assets/image/image03.webp";
+import img04 from "../../assets/image/image04.webp";
 
-import icon1 from "../assets/icons/architecture.svg";
-import icon2 from "../assets/icons/chair.svg";
-import icon3 from "../assets/icons/layers.svg";
-
-import { Footer } from "../components/Footer";
+import icon1 from "../../assets/icons/architecture.svg";
+import icon2 from "../../assets/icons/chair.svg";
+import icon3 from "../../assets/icons/layers.svg";
 
 type PortfolioItemProps = {
   src: string;
