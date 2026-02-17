@@ -1,3 +1,8 @@
+import facebook from "../assets/icons/facebook.svg";
+import instagram from "../assets/icons/instagram.svg";
+import dribbble from "../assets/icons/dribbble.svg";
+import send_symbol from "../assets/icons/send-symbol.svg";
+
 export function Footer() {
   return (
     <footer className="bg-slate-50">
@@ -88,7 +93,7 @@ export function Footer() {
                 className="h-11 w-11 rounded-lg bg-blue-600 text-white flex items-center justify-center transition hover:bg-blue-700"
                 aria-label="Subscribe"
               >
-                Arrow
+                <img src={send_symbol} alt="" />
               </button>
             </form>
           </div>
@@ -107,21 +112,21 @@ export function Footer() {
               className="hover:text-blue-600 transition"
               aria-label="Facebook"
             >
-              Facebooy Icom
+              <img src={facebook} alt="" />
             </a>
             <a
               href="#"
               className="hover:text-blue-600 transition"
               aria-label="Instagram"
             >
-              Instagram Icon
+              <img src={instagram} alt="" />
             </a>
             <a
               href="#"
               className="hover:text-blue-600 transition"
               aria-label="Dribbble"
             >
-              Dribble Icon
+              <img src={dribbble} alt="" />
             </a>
           </div>
         </div>
