@@ -1,7 +1,9 @@
 import facebook from "../../assets/icons/facebook.svg";
 import instagram from "../../assets/icons/instagram.svg";
 import dribbble from "../../assets/icons/dribbble.svg";
+
 import send_symbol from "../../assets/icons/send-symbol.svg";
+import { Link } from "react-router";
 
 export function Footer() {
   return (
@@ -33,19 +35,22 @@ export function Footer() {
 
             <ul className="mt-6 space-y-4 text-slate-700">
               <li>
-                <a className="hover:text-blue-600 transition" href="#">
+                <Link
+                  className="hover:text-blue-600 transition"
+                  to="/portfolio"
+                >
                   Portfolio
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="hover:text-blue-600 transition" href="#">
+                <Link className="hover:text-blue-600 transition" to="/services">
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="hover:text-blue-600 transition" href="#">
+                <Link className="hover:text-blue-600 transition" to="/contact">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import Logo from "./Logo";
+import Logo from "../ui/Logo";
 
 function navLinkClass({ isActive }: { isActive: boolean }) {
   return isActive
