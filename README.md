@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 # 🎨 Atlas Studios — Landing Page de Design de Interiores
 
 **Atlas Studios** é uma **landing page profissional para um estúdio de design de interiores**, desenvolvida para apresentar projetos, serviços e diferenciais da marca de forma elegante, moderna e focada em conversão.
@@ -33,5 +31,4 @@ O projeto foi desenvolvido utilizando uma stack front-end moderna:
 
 ## 🖥️ Preview
 
-![Atlas Studios Preview](./.github/preview.png)
->>>>>>> de03bd9624bf0b0c8d90070044ba35a37918047a
+![Atlas Studios Preview](./.github/project_img.png)
