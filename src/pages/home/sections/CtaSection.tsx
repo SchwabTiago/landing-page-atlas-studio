@@ -2,7 +2,7 @@ import Button from "../../../components/ui/Button";
 
 export default function CtaSection() {
   return (
-    <section className="max-w-7xl mx-auto px-6 mt-20">
+    <section className="max-w-7xl mx-auto px-6 mt-20 mb-20">
       <div className="w-full rounded-2xl bg-linear-to-r from-sky-500 to-blue-600 px-8 py-20 text-white flex flex-col items-center text-center">
         <h2 className="font-playfair-display text-4xl md:text-6xl leading-tight">
           Ready to transform your <br className="hidden md:block" />
